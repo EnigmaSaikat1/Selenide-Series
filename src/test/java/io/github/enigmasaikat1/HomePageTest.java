@@ -44,6 +44,7 @@ public class HomePageTest {
 
     @Test
     public void testInputDropdownAndDateField() {
+        Configuration.browserSize = "1920x1080";
         open("https://practice.expandtesting.com/form-validation");
         //fill the input field of Contact Name
         //$(By.name("ContactName"));
